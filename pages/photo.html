@@ -4,29 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <!-- Reset Styles -->
   <link rel="stylesheet" href="../styles/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
   <!-- JS -->
   <script defer src="../js/main.js"></script>
   <!-- Bootstrap Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Custom Styles -->
-  <!-- <link rel="stylesheet" href="../styles/styles.css"> -->
+  <link rel="stylesheet" href="../styles/styles.css">
   <link rel="stylesheet" href="../styles/photos/photo.css">
+  <script defer src="../js/main.js"></script>
   <title>Misslind</title>
 </head>
 
 <body>
   <nav>
+    <div id="profile">
+      <div id="gradient"></div>
+      <img src="../media/violin-profile.jpg" alt="">
+      <h1>ANASTASIA LINDEBERG</h1>
+    </div>
+
+    </div>
     <div class="container">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link active" href="../index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">PHOTO</a>
+          <a class="nav-link" href="./pages/photo.html">PHOTO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">VIDEO</a>
@@ -39,30 +50,53 @@
   </nav>
 
   <main>
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../media/IMG_0474.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../media/IMG_0528.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../media/IMG_0535.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="../media/profile.jpg" class="card-img-top" alt="...">
-          </div>
-        </div>
-      </div>
-    </div>
+    <section id="gallery" class="mb-5">
+      <div class="container">
+        <div id="image-gallery">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+              <div class="img-wrapper">
+                <a href="../media/IMG_0649.jpg"><img class="photo" src="../media/IMG_0649.jpg"
+                    class="img-responsive"></a>
+                <div class="img-overlay">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+              <div class="img-wrapper">
+                <a href="../media/IMG_0474.jpg">
+                  <img class="photo" src="../media/IMG_0474.jpg" class="img-responsive">
+                </a>
+                <div class="img-overlay">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+              <div class="img-wrapper">
+                <a href="../media/IMG_0535.jpg">
+                  <img class="photo" src="../media/IMG_0535.jpg" class="img-responsive">
+                </a>
+                <div class="img-overlay">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+              <div class="img-wrapper">
+                <a href="../media/IMG_0528.jpg">
+                  <img class="photo" src="../media/IMG_0528.jpg" class="img-responsive ">
+                </a>
+                <div class="img-overlay">
+                  <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div><!-- End row -->
+        </div><!-- End image gallery -->
+      </div><!-- End container -->
+    </section>
   </main>
 
   <footer>
