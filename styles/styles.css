@@ -49,21 +49,6 @@ p {
   font-size: 20px;
 }
 
-@media (max-width: 500px) {
-  li {
-    width: 60px;
-    height: 60px;
-  }
-
-  a {
-    font-size: 10px;
-  }
-
-  img {
-    min-height: 200px;
-  }
-}
-
 a {
   color: white;
   font-size: 14px;
@@ -78,6 +63,21 @@ img {
   max-height: 500px;
   object-fit: cover;
   object-position: bottom;
+}
+
+@media (max-width: 500px) {
+  li {
+    width: 60px;
+    height: 60px;
+  }
+
+  a {
+    font-size: 10px;
+  }
+
+  img {
+    min-height: 200px;
+  }
 }
 
 main {
