@@ -56,11 +56,12 @@
 }
 
 #overlay img {
-  /* margin: 0;
+  margin: 0;
   width: 90%;
   height: 90%;
   object-fit: contain;
-  padding: 5px; */
+  padding: 5px;
+  object-position: center;
 }
 
 #nextButton {

@@ -30,7 +30,7 @@ li {
 }
 
 li:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(141, 140, 140);
 }
 
 h1 {
@@ -112,7 +112,6 @@ footer {
   position: relative;
   width: 100%;
   max-height: 500px;
-  background-image: url("media/violin-profile.jpg");
 }
 
 #title {
