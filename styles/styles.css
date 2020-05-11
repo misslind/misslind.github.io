@@ -45,6 +45,10 @@ h1 {
   color: white;
 }
 
+h6 {
+  color: rgb(168, 168, 168);
+}
+
 p {
   font-size: 20px;
 }
@@ -95,7 +99,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #gradient {
@@ -120,3 +124,20 @@ footer {
   background-color: black;
   color: white;
 } 
+
+.blockquote p, .blockquote-footer{
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote i {
+  font-size: 50px;
+}
